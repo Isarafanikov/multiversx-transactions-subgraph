@@ -3,7 +3,7 @@ This is a subgraph implementing parsing of transaction entities on multiversx ch
 
 # Running
 1. Clone the [firehose-multiversx](https://github.com/multiversx/firehose-multiversx) repository
-2. Edit [substreams.yaml](./substreams.yaml) and change line 18 to point at the `proto` folder from the cloned firehose-multiversx repository
+2. Edit [substreams.yaml](./substreams.yaml) and change [line 18](./substreams.yaml#L18) to point at the `proto` folder from the cloned firehose-multiversx repository
 3. Edit [package.json](./package.json) to set `--node` and `--ipfs` to point at the graphnode
 4. Build the spkg
     ```shell
