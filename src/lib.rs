@@ -64,7 +64,6 @@ fn graph_out(blk: HyperOutportBlock) -> Result<EntityChanges, substreams::errors
 
         let method = segments.next().expect("Should have method");
 
-
         match method {
             methods::ISSUANCE => {
                 parse_data(segments, methods::ISSUANCE, |mut p| {
